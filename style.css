@@ -6,7 +6,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: #1a1244;
-  padding: 10px 200px;
+  padding: 10px 150px;
 }
 nav ul {
   display: flex;
@@ -20,7 +20,7 @@ nav ul li a {
   color: #ffffff;
   font-weight: bold;
   font-size: 20px;
-  padding: 10px 20px;
+  padding: 5px 15px;
   transition: 0.5s;
 }
 nav ul li a:hover {
@@ -31,4 +31,71 @@ nav ul li a:hover {
 nav div {
   color: #fff;
   font-size: 20px;
+}
+/* hero area start */
+header {
+  background-image: url(image/website\ banner.jpg);
+  padding: 200px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.searchBox-icon-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBox-icon-parent i {
+  color: red;
+  background-color: green;
+  font-size: 25px;
+  height: 40px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+.searchBox-icon-parent input {
+  height: 40px;
+  width: 500px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif, SolaimanLipi;
+  font-weight: bold;
+}
+/* main area code */
+main {
+  background-color: #281e60;
+  padding-top: 20px;
+}
+#main-section {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#latest-video-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.latest-video-text {
+  font-size: 25px;
+  color: aqua;
+  font-weight: bold;
+}
+.latest-pages {
+  color: aqua;
+}
+.latest-pages span {
+  background-color: #fff;
+  border: 1px solid gray;
+  padding: 5px;
+  color: #000;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
 }
